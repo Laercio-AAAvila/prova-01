@@ -11,7 +11,7 @@ export class Car {
     }
 
     public print() {
-        console.log(`Meu carro é do modelo ${this.model}, e sua cor é ${this.cor}, e eu paguei o valor ${this.price}`)
+        console.log(`Meu carro é do modelo ${this.model}, e sua cor é ${this.cor}, e eu paguei o valor R$${this.price}`)
         console.log('Meu carro é do modelo ' + this.model + ', e sua cor é' + this.cor + ', e eu paguei o valor R$' + this.price)
     }
 
